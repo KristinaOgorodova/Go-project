@@ -1,0 +1,26 @@
+.present__container {
+    background-image:url("../img/desktop/gameover.png");
+    background-repeat: no-repeat;
+    min-height: 1023px;
+    background-position: bottom right;
+    background-size: 800px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.present__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: -0.1em;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.present__new-format {
+    font-weight: 400;
+    font-size: 28px;
+    margin-left: 95px;
+    margin-top: 0;
+}

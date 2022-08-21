@@ -1,0 +1,31 @@
+
+.halls__vibes {
+    background-image: url("../img/desktop/80vibes.jpg");
+
+}
+
+.halls__star-wars {
+    background-image: url("../img/desktop/starwars.jpg");
+
+}
+
+.halls__wild-west {
+    background-image: url("../img/desktop/wild_west.jpg");
+}
+
+.halls__neon-style {
+    background-image: url("../img/desktop/neon_style.png");
+}
+
+.room {
+    display: block;
+    min-height: 710px;
+    margin-top: 60px ;
+    font-weight: 700;
+    white-space: pre-line;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 275px;
+    font-size: 70px;
+    padding-left: 0;
+}
