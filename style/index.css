@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "Global_style.css";
 @import "style.css";
+@import "header.css";
 @import "faq.css";
 @import "present.css";
 @import "room.css";

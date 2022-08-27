@@ -1,11 +1,13 @@
 .present__container {
-    background-image:url("../img/desktop/gameover.png");
+    position: relative;
+   /* background-image:url("../img/desktop/gameover.png");
     background-repeat: no-repeat;
     min-height: 1023px;
     background-position: bottom right;
-    background-size: 800px;
+    background-size: 800px;*/
     text-align: left;
     margin-bottom: 40px;
+    min-height: 823px;
 }
 
 .present__title {
@@ -23,4 +25,65 @@
     font-size: 28px;
     margin-left: 95px;
     margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.present__img {
+    position: absolute;
+    right:30px;
+    top:70px;
+    min-height: 762px;
+}
+
+.present {
+    margin-bottom: 100px;
+}
+
+.present__btn {
+    min-width: 374px;
+    min-height: 80px;
+    background-color: #6C0287;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 2px #6C0287;
+    border: none;
+}
+
+.present__text {
+    font-size:30px;
+    Line-height: 34.5px;
+    text-align: center;
+    width: 166px;
+}
+
+.present__promo {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+    margin-bottom: 150px;
+
+}
+
+.present__text_color-number {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+}
+
+.present__text_color {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    color: #CD06FF;
+    font-variant: small-caps;
+}
+
+.present__first-line,
+.present__second-line {
+    display: flex;
+    flex-direction: column;
 }
