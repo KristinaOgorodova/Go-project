@@ -33,3 +33,21 @@
     margin-bottom: 40px;
 }
 
+.contacts__main-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+
+.contacts {
+    background: linear-gradient(#1B1A1B, #370A37);
+}
+

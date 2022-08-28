@@ -1,0 +1,88 @@
+.booking-form {
+    background-color: #440F51;
+}
+
+.border {
+    border: none;
+}
+
+.booking-form__hall {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.as-btn {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.button-radio {
+    min-width: 220px;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-radio:hover {
+    background-color: #CD06FF;
+}
+/* Не могу разобраться в этом коде...:(
+.button-radio:focus > .as-btn  {
+    background-color:black;
+}
+
+.button-radio:checked >.as-btn {
+    background-color: red;
+} */
+
+.vertical-item {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.booking-form__game {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.little-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 23px;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.booking-form__date-and-time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
