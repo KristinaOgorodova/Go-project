@@ -38,10 +38,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .photo-presentation__photo {
     width: 380px;
+}
+
+.photo-presentation__photo_space {
+    margin-bottom: 40px;
 }
 
 .photo-presentation__description {
