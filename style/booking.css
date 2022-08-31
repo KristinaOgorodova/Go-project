@@ -70,14 +70,14 @@
 
 .booking-form__date-and-time {
     display: flex;
-    gap:50px;
+    justify-content: space-between;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     gap: 40px;
-
+    align-items: flex-end;
 }
 
 .column input {
@@ -103,5 +103,47 @@
     min-height: 60px;
     border: none;
     margin-bottom: 80px;
+}
+
+
+input[type="date"], 
+input [type="time"],
+input [type="number"] {
+    position: relative;
+    color: transparent;
+}
+
+input[type="date"]::before,
+input [type="time"]::before,
+input [type="number"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    left: 10px;
+    color: #000;
+    pointer-events: none;
+}
+
+input[type="date"]:valid,
+input[type="date"]:focus,
+input[type="date"]:active,
+input[type="time"]:valid,
+input[type="time"]:focus,
+input[type="time"]:active, 
+input[type="number"]:valid,
+input[type="number"]:focus,
+input[type="number"]:active {
+    color: #000;
+}
+
+input[type="date"]:valid::before,
+input[type="date"]:focus::before,
+input[type="date"]:active::before,
+input[type="time"]:valid::before,
+input[type="time"]:focus::before,
+input[type="time"]:active::before,
+input[type="number"]:valid::before,
+input[type="number"]:focus::before,
+input[type="number"]:active::before {
+    display: none;
 }
 
