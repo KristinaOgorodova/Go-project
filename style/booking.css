@@ -22,7 +22,7 @@
 .button-radio {
     min-width: 220px;
     padding: 7px 15px;
-    border: none;
+    border:3px solid #FFFFFF;
     cursor: pointer;
     background: #FFFFFF;
     border-radius: 8px;
@@ -35,7 +35,20 @@
 }
 
 .button-radio:hover {
-    background-color: #CD06FF;
+    background-color: #EADEED;
+    border: 3px solid #640AA3;
+    box-shadow: 0 4px 4 0 #000000;
+}
+/* не срабатывает фокус*/
+.button-radio:focus {
+    background-color: #FFFFFF;
+    border: 3px solid #640AA3;
+}
+
+.button-radio:active {
+    background-color: #6C0287;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .vertical-item {
@@ -101,10 +114,24 @@
     border-radius: 10px;
     min-width: 300px;
     min-height: 60px;
-    border: none;
+    border: 3px solid #FFFFFF;
     margin-bottom: 80px;
 }
 
+.booking-form__submit:hover {
+    background-color: #EADEED;
+    border: 3px solid #6C0287;
+}
+
+.booking-form__submit:focus {
+    background-color: #FFFFFF;
+    border: 3px solid #6C0287;
+}
+
+.booking-form__submit:active {
+    background-color: #EADEED;
+    border: 3px solid #EADEED;
+}
 
 input[type="date"], 
 input [type="time"],

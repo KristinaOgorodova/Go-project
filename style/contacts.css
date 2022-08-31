@@ -55,3 +55,22 @@
     text-align: right;
 }
 
+.contacts__social-link-icon {
+    color: #FFFFFF;
+    outline: 1px solid transparent;
+}
+
+.contacts__social-link-icon:hover {
+    color: #EADEED;
+}
+
+.contacts__social-link-icon:focus {
+    color: #EADEED;
+    outline-color: #CD06FF;
+}
+
+.contacts__social-link-icon:active {
+    color: #CD06FF;
+    outline: none;
+}
+

@@ -52,6 +52,17 @@
     border: none;
 }
 
+.present__btn:hover,
+.present__btn:focus {
+    background-color: #840AA3;
+    border-color: #640AA3;
+}
+
+.present__btn:active {
+    background-color: #640AA3;
+    border-color: #640AA3;
+}
+
 .present__text {
     font-size:30px;
     Line-height: 34.5px;
