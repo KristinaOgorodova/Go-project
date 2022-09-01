@@ -20,7 +20,29 @@
     
 }
 
-.as-btn {
+.as-btn::before {
+    content: '';
+    position: absolute;
+    min-width: 250px;
+    height: 55px;
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    border:3px solid #fff; 
+    border-radius: 8px ;
+    color: #211E1E;
+}
+
+
+.as-btn span::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: #211E1E;
+}
+
+/*.as-btn {
     min-width: 250px;
     height: 55px;
     border-radius: 8px;
@@ -31,13 +53,16 @@
     color: #211E1E;
 }
 
-.as-btn span {
+.button-radio span {
+    position: relative;
     color: #211E1E;
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+    top:10px;
+    left:30px;
 }
 
 .as-btn:checked{
@@ -48,7 +73,9 @@
 
 .as-btn:focus {
 
-}
+}*/
+
+
 
 .vertical-item {
     display: flex;
@@ -317,6 +344,10 @@ input[type="time"]::after,
     width: 27px;
     height: 27px;
     background-color: #fff;
+}
+
+.big-square:focus::before {
+    outline: 1px solid #6C0287;
 }
 
 .big-square::after {
