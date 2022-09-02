@@ -1,4 +1,6 @@
-
+.about-us,.questions {
+    margin-bottom: 100px;
+}
 .about-us__title {
     margin-bottom: 30px;
 }

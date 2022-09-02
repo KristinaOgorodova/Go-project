@@ -98,3 +98,57 @@
     display: flex;
     flex-direction: column;
 }
+
+.present__next-page {
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+    content: " ";
+    background-image: url("../icons/down .svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 97px;
+    height: 97px;
+    border: none;
+}
+
+.present__next-page:hover {
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+    content: " ";
+    background-image: url("../icons/down hover.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 97px;
+    height: 97px;
+    border: none;
+}
+
+.present__next-page:focus {
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+    content: " ";
+    background-image: url("../icons/down .svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 97px;
+    height: 97px;
+    border: none;
+    outline: 2px solid #CD06FF;
+}
+
+.present__next-page:active {
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+    content: " ";
+    background-image: url("../icons/down-active.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 97px;
+    height: 97px;
+    border: none;
+    outline:none;
+}
