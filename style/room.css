@@ -43,6 +43,14 @@
 
 .photo-presentation__photo {
     width: 380px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.photo-presentation__photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px 0 #000000;
 }
 
 .photo-presentation__photo_space {

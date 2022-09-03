@@ -38,6 +38,8 @@
     text-transform: uppercase;
     padding-top: 6px;
     border: 3px solid #ffffff;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .button-radio:focus {
@@ -136,6 +138,8 @@
     min-height: 60px;
     border: 3px solid #FFFFFF;
     margin-bottom: 70px;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .booking-form__submit:hover {
