@@ -39,6 +39,7 @@ nav {
 .header__btn:focus {
     background-color: #6C0287;
     border-color: #6C0287;
+    outline: none;
 }
 
 .header__btn:active {

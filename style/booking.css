@@ -3,6 +3,10 @@
     margin-bottom: 50px;
 }
 
+.booking-form__booking-title {
+    padding-top: 80px;
+}
+
 .border {
     border: none;
 }
@@ -36,7 +40,7 @@
     border: 3px solid #ffffff;
 }
 
-.button-radio:focus-within{
+.button-radio:focus {
     background-color: #FFFFFF;
     border: 3px solid #640AA3;
 }
