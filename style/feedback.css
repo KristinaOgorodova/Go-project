@@ -38,3 +38,19 @@ figcaption {
     vertical-align: middle;
 
 }
+
+.guest-feedback__block {
+    position: relative;
+}
+
+.guest-feedback__photo:after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#C4C4C4,#6C0287);
+
+}

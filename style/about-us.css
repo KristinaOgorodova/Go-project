@@ -17,7 +17,7 @@ blockquote {
 }
 
 .commas {
-    color: #6C0287;
+    color: var(--purpur);
 }
 
 .about-us__arkadi {

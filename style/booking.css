@@ -1,5 +1,5 @@
 .booking-form {
-    background-color: #440F51;
+    background-color: var(--very-dark-purpur);
     margin-bottom: 50px;
 }
 
@@ -26,38 +26,38 @@
 }
 
 .booking-form__hall-choice label {
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-radius: 8px;
     min-width: 250px;
     height: 55px;
-    color: #1B1A1B;
+    color: var( --page-color);
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 6px;
-    border: 3px solid #ffffff;
+    border: 3px solid var(--white);
     transition-property: all;
     transition-duration: 0.5s;
 }
 
 .button-radio:focus {
-    background-color: #FFFFFF;
-    border: 3px solid #640AA3;
+    background-color: var(--white);
+    border: 3px solid var(--dark-purpur);
 }
 
 .booking-form__hall-choice label:hover {
-    background-color: #EADEED;
+    background-color: var(--dark-white);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
-    border: 3px solid #640AA3;
+    border: 3px solid var(--dark-purpur);
 }
 
 .booking-form__hall-choice label:active {
-    background-color: #6C0287;
-    color: white;
+    background-color: var(--purpur);
+    color: var(--white);
     box-shadow: none;
-    border: 3px solid #ffffff;
+    border: 3px solid var(--white);
 }
 
 .vertical-item {
@@ -87,7 +87,7 @@
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 40px;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .booking-form__fields input:focus-within {
-    outline: 2px solid #CD06FF;
+    outline: 2px solid var(--pink);
 }
 
 .column input {
@@ -131,30 +131,30 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
-    background: #FFFFFF;
+    color: var(--purpur);
+    background: var(--white);
     border-radius: 10px;
     min-width: 300px;
     min-height: 60px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid var(--white);
     margin-bottom: 70px;
     transition-property: all;
     transition-duration: 0.5s;
 }
 
 .booking-form__submit:hover {
-    background-color: #EADEED;
-    border: 3px solid #6C0287;
+    background-color: var(--dark-white);
+    border: 3px solid var(--purpur);
 }
 
 .booking-form__submit:focus-within {
-    background-color: #FFFFFF;
-    outline: 3px solid #6C0287;
+    background-color: var(--white);
+    outline: 3px solid var(--purpur);
 }
 
 .booking-form__submit:active {
-    background-color: #EADEED;
-    border: 3px solid #EADEED;
+    background-color: var(--dark-white);
+    border: 3px solid var(--dark-white);
     outline: none;
 }
 
@@ -299,7 +299,7 @@ input[type="time"]::after,
     position: absolute;
     width: 27px;
     height: 27px;
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 50%;
 }
 
@@ -308,7 +308,7 @@ input[type="time"]::after,
     position: absolute;
     width: 13px;
     height: 13px;
-    background-color: #440F51;
+    background-color: var(--very-dark-purpur);
     border-radius: 50%;
     visibility: hidden;
 }
@@ -337,11 +337,11 @@ input[type="time"]::after,
     position: absolute;
     width: 27px;
     height: 27px;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .big-square:focus-within, .big-round:focus-within {
-    outline: 2px solid #CD06FF;
+    outline: 2px solid var(--pink);
 }
 
 .big-square::after {
@@ -350,7 +350,7 @@ input[type="time"]::after,
     width: 17px;
     height: 17px;
     background-color: transparent;
-    border: 3px solid #440F51;
+    border: 3px solid var(--very-dark-purpur);
     border-top: none;
     border-left: none;
     transform: rotate(45deg) translate(-3px, -3px);
